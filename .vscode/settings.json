@@ -1,0 +1,7 @@
+{
+    "Lua.diagnostics.disable": [
+        "discard-returns",
+        "param-type-mismatch",
+        "unused-local"
+    ]
+}
