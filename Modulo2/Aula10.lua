@@ -17,3 +17,7 @@ print(var1 ~= var2) -- demonstra não equivalencia
 print(var1 < var2)
 print(var1 > var2)
 
+-- (<=) menor ou igual que e (>=) maior ou igual
+
+print(var1 >= var2) 
+print(var1 <= var2) -- Retorna com valor booleano
