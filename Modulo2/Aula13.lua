@@ -23,4 +23,4 @@ elseif num == 3 then    -- Pode-se utizar elseif quantas vezes necessario na mes
     print("Pao")
 else -- Pode-se utilizar um else na estrutura condicional onde foi utilizada o elseif
     print("Eu nao conheoo esse numero")
-end
+end -- Final da estrutura
