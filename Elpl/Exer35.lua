@@ -2,9 +2,8 @@
 
 print("Me digite um ano")
 local ano = tonumber(io.read())
-local anocheck = (ano % 4)
 
-if anocheck == 0 then
+if ((ano % 4) == 0 and (ano % 100 ~= 0)) or (ano % 400) then
     print("Este ano e bissexto")
 else
     print("Este ano nao e bissexto")
