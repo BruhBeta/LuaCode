@@ -35,20 +35,27 @@ print(os.difftime(2,1)) -- Expressa a diferença de segundos de um tempo 1 a um 
 
 os.execute ("Echo oi") -- Executa um comando no CMD
 
-local area = Math.exponenciar()
-if area then
-    os.exit() -- Desativa função
+local area = Math.exponenciar(2,3)
+if not area then
+    os.exit(0) -- Desativa função
 end
 print(Math.exponenciar(2,3)) -- Não funcionará
 
-print(os.getenv("USERPROFILE")) -- Printa diretório de perfil do usuário
+print(os.getenv("PATH")) -- Printa o diretório da variável de ambiente selecionada
 
 os.remove("Arquivo.txt") -- Deleta arquivo ou diretório
 
 os.rename("Modulo1.lua", "Modulo.lua") -- Renomeia Arquivo
 
-print(os.setlocale ("C", "all")) -- Printa o tipo do arquivo
+print(os.setlocale ()) -- Define ou imprime a configuração de localização do sistema
+print(os.time()) -- Printa em segundos a diferença do tempo atual para o tempo unix(1 de janeiro de 1970)
 
-print(os.time(table)) -- Printa como o os.time em tables
+local nomeTemporario = os.tmpname()
+local arquivo, erro = io.open(nomeTemporario, "w")
 
-io.open(os.tmpname(), "w") -- Cria um arquivo temporário
+if arquivo then -- Se arquivo for alocado
+    arquivo:write("Conteúdo do arquivo temporário\n") -- Cria arquivo temporario
+    arquivo:close()
+else
+    print("Erro ao criar o arquivo temporário:", erro)
+end     -- Mostra o nome de um arquivo temporario
