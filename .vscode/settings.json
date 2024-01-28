@@ -3,6 +3,7 @@
         "discard-returns",
         "param-type-mismatch",
         "unused-local",
-        "unreachable-code"
+        "unreachable-code",
+        "lowercase-global"
     ]
 }

@@ -1,0 +1,22 @@
+-- POO -> Programação orientada a objeto
+--[[
+Programação orientada a objetos
+é um paradigma de programação
+baseado no conceito de "objetos",
+que podem conter dados na
+forma de campos, também
+conhecidos como atributos, e
+códigos, na forma de
+procedimentos, também
+conhecidos como métodos.
+]]--
+--[[
+Principios da POO
+1. Abstração
+2. Encapsulamento
+3. Agregação
+4. Herança
+5. Polimorfismo
+6. Modularidade
+7. Mensagens
+]]--
