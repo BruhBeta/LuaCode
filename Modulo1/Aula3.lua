@@ -1,3 +1,5 @@
+-- Variáveis
+
 local var = "Ola mundo!"
 local var2 = "Oi"           -- Alocando valores em variáveis
 
