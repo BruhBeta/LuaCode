@@ -53,8 +53,8 @@ end
     return i
 end
 
-function module.Trianguloarea(n1)
-    local area = (n1^2) / 2
+function module.Trianguloarea(n1,n2)
+    local area = (n1*n2) / 2
 end     -- Explorando funções
 
 return module

@@ -1,4 +1,5 @@
 -- Biblioteca Coroutine
+-- Fonte: https://www.tutorialspoint.com/lua/lua_coroutines.htm
 --[[
 Coroutine são componentes da programação que permitem a
 suspensão, e resumo de execução de uma sub-rotina.

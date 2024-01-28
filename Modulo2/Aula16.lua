@@ -1,4 +1,5 @@
 -- Biblioteca IO - Gerenciamento de arquivos
+-- Fonte: https://www.tutorialspoint.com/lua/lua_file_io.htm
 
 -- Output
 

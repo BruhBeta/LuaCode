@@ -1,4 +1,5 @@
 -- Pairs e ipairs
+-- Fonte: https://pt.stackoverflow.com/questions/375628/qual-a-diferen%C3%A7a-de-in-pairs-e-in-ipairs-em-lua
 
 local dicionario = {
     array = {}

@@ -1,5 +1,6 @@
 -- Biblioteca OS
 -- OS --> Sistema Operacional
+-- Fonte: https://www.tutorialspoint.com/lua/lua_operating_system_facilities.htm
 
 print(os.date()) -- os.date busca a data e horário do sistema
 

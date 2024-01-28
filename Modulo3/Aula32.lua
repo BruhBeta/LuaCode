@@ -12,4 +12,4 @@ print(Math.subtracao(100,20))
 print(Math.mutiplica(2,2,2,2))
 print(Math.dividir(200,4,2))
 print(Math.exponenciar(2,2,2))
-print(Math.Trianguloarea(4))
+print(Math.Trianguloarea(4))    -- Checar arquivo Modulo.lua
