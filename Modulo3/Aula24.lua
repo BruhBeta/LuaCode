@@ -23,7 +23,7 @@ mostra() -- Quantas vezes necessárias
 
 local nome = function ()
     print("Ola, mundo!")
-    print("Está é a segunda forma!") 
+    print("Esta e a segunda forma!") 
 end -- É preferivel a primeira forma
 
 nome()
