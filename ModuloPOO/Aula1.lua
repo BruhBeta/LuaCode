@@ -1,4 +1,5 @@
 -- POO -->
+-- Fonte: https://www.tutorialspoint.com/lua/lua_object_oriented.htm
 
 local Gato = {
     vida = 100,

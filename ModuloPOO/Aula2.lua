@@ -15,7 +15,7 @@ function Gato:Damage(dano)
         self.vida = 0
         print("O Gato morreu...")
     end
-end
+end     -- Utilizando o Self 
 
-Gato:Damage(400)
+Gato:Damage(400) -- Chamando a função
 print("Vida: "..Gato.vida)
