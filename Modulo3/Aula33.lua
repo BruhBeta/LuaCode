@@ -2,7 +2,7 @@
 --[[
 Erros podem estar divididos em 2 grupos principais:
 --> Erros de sintaxe
---> Runt time Error (Erros de tempo de execução)
+--> Run time Error (Erros de tempo de execução)
 ]]--
 
 -- Pcall -->
