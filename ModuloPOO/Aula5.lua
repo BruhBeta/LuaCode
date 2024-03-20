@@ -16,5 +16,5 @@ local obj = Classe1:new()
 local obj2 = Classe1:new()
 
 obj:Damage(40)
-print(obj.vida)
+print(obj:Getlife()) -- Resultara no valor da variavel usando o metodo Getter
 print(obj2.vida)
